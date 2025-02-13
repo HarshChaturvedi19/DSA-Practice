@@ -12,7 +12,7 @@ bool isPalindrome(int x) {
         reversed = reversed * 10 + digit; 
         x /= 10; 
     }
-12321
+
     return original == reversed;
 }
 
